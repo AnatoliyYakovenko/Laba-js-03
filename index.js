@@ -1,7 +1,7 @@
 // 1. Створити новий масив на 10 елементів з довільними числами.
 
 let arr = [
-  32,
+  "robot",
   undefined,
   45,
   2,
@@ -28,8 +28,8 @@ for (let i = 0; i < arr.length; i++) {
 console.log("Сума елементів масиву:", sum);
 
 // 3. Написати скрипт, який буде шукати мінімальне та максимальне значення елементів масиву.
-let min = arr[0];
-let max = arr[0];
+let min = Infinity;
+let max = -Infinity;
 
 for (let i = 0; i < arr.length; i++) {
   if (typeof arr[i] === "number") {
